@@ -6,30 +6,15 @@ Aplicación web full stack para la gestión de un refugio de animales. Permite a
 
 ### Frontend
 - React 19.1.1
-- React Router DOM 7.8.2
-- Vite 7.1.2
-- Tailwind CSS 4.1.12
-- ESLint
+- React Router DOM
+- Vite
+- Tailwind CSS
 
 ### Backend
 - Django 5.0.1
-- Django REST Framework 3.14.0
-- djangorestframework-simplejwt 5.3.1 (JWT)
+- Django REST Framework
 - MySQL 8.0
 - Docker & Docker Compose
-- Gunicorn (producción)
-- WhiteNoise (archivos estáticos)
-
-## Requisitos previos
-
-### Frontend
-- Node.js 18 o superior
-- npm o yarn
-
-### Backend
-- Docker Desktop (recomendado)
-- Docker Compose
-- O alternativamente: Python 3.11+ y MySQL 8.0
 
 ## Instalación y ejecución en local
 
