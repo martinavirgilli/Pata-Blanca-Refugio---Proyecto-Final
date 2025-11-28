@@ -107,7 +107,7 @@ DB_PASSWORD=refugio_password
 DB_HOST=db
 DB_PORT=3306
 
-# JWT (opcional, Django tiene valores por defecto)
+# JWT (opcional)
 JWT_SECRET_KEY=tu-jwt-secret-key
 JWT_ALGORITHM=HS256
 
@@ -168,32 +168,11 @@ Proyecto Final/
 
 ## Deploy en la nube
 
-### Plataforma: Railway
-
-El proyecto está configurado para desplegarse en Railway. La configuración se encuentra en `railway.json`.
-
-**Enlaces** (completar cuando esté desplegado):
-- Frontend: [URL del frontend en Railway]
-- API: [URL de la API en Railway]
-
-### Proceso de deploy
-
-1. **Conectar repositorio**: Conectar el repositorio de GitHub a Railway
-2. **Configurar servicios**: Railway detectará automáticamente los servicios (frontend, backend, base de datos)
-3. **Variables de entorno**: Configurar las variables de entorno en Railway para cada servicio
-4. **Deploy automático**: Railway desplegará automáticamente en cada push a la rama principal
-
-### Variables de entorno en Railway
-
-Configurar las mismas variables mencionadas en la sección "Configuración", pero con valores de producción:
-- `DEBUG=False`
-- `ALLOWED_HOSTS` con el dominio de Railway
-- Credenciales de base de datos de Railway
-- `VITE_API_URL` con la URL de la API en Railway
+### Plataforma: Netlify
 
 ## Estado del proyecto / Trabajo futuro
 
-### ✅ Implementado
+### Implementado
 
 - [x] Autenticación JWT completa (login, logout, protección de rutas)
 - [x] API REST en Django con Docker
@@ -209,22 +188,19 @@ Configurar las mismas variables mencionadas en la sección "Configuración", per
 - [x] Migraciones de base de datos
 - [x] Docker Compose para desarrollo local
 
-### 🔄 Trabajo futuro
+### Trabajo futuro
 
 - [ ] Tests automatizados (unitarios e integración)
-- [ ] CI/CD pipeline completo
 - [ ] Mejoras en la UI/UX
-- [ ] Sistema de notificaciones
-- [ ] Panel de estadísticas avanzado
-- [ ] Exportación de reportes
-- [ ] Sistema de roles más granular
-- [ ] Documentación de API con Swagger/OpenAPI
+- [ ] Panel de estadísticas
+- [ ] Que el usuario cree sus propias solicitudes de visita
+- [ ] Seguimiento de adopciones durante el periodo de prueba
 
 ## Autores / Créditos
 
-**Desarrollado por**: [Tu nombre aquí]
+**Desarrollado por**: Martina Virgilli
 
-**Rol**: Desarrollador Full Stack
+**Rol**: Desarrolladora Full Stack
 
 **Proyecto**: Proyecto Final de la Diplomatura en Desarrollo Web Full Stack
 
